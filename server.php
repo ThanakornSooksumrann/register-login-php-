@@ -2,7 +2,7 @@
 
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "12345";
     $dbname = "register_db";
 
     // Create Connection
@@ -12,5 +12,5 @@
     if (!$conn) {
         die("Connection failed" . mysqli_connect_error());
     } 
-
+    
 ?>
